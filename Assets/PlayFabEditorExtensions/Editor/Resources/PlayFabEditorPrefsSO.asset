@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0199c11aa6f514784c5c69cd8378d8, type: 3}
+  m_Name: PlayFabEditorPrefsSO
+  m_EditorClassIdentifier: 
+  DevAccountEmail: t-faxia@microsoft.com
+  DevAccountToken: fcqtwczzgqmotttsmxd13zpjj7jofnthywet5frj1uu6mcbpjcyqy19o1ce1dk4uxi794xwpthzzf5nxgkrk9zj3wjotoduakqzi8nfhxzzciajutzeab3xa6xgbrgp6wwhiawxze3b4onca9k4fqjyz1mxzcps1aew1fnrro6zqitf1h47pkji54bzf8pr3cww1xb46
+  SelectedStudio: XiaFan Studio
+  SdkPath: Assets/PlayFabSDK
+  EdExPath: 
+  LocalCloudScriptPath: "C:/Users/\u590F\u51E1/Desktop/web/FarmGame-Unity/client/Farm
+    Game/Assets/PlayFabEditorExtensions/Editor/Resources/.CloudScript.js"
+  PanelIsShown: 0
+  curMainMenuIdx: 1
+  curSubMenuIdx: 1
