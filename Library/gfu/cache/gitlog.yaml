@@ -13,9 +13,703 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-07-29T12:19:02.395+08:00
-  initializedAtString: 2020-07-29T12:15:44.489+08:00
+  lastUpdatedAtString: 2020-07-29T12:42:19.754+08:00
+  initializedAtString: 2020-07-29T12:29:53.406+08:00
   log:
+  - commitID: c88a53b15351bde2d0c82778f1e3ab9ffbe09208
+    mergeA: 
+    mergeB: 
+    authorName: xiafanfan
+    authorEmail: 879202243@qq.com
+    commitEmail: 879202243@qq.com
+    commitName: xiafanfan
+    summary: 7
+    description: 
+    timeString: 2020-07-29T12:22:12.000+08:00
+    commitTimeString: 2020-07-29T12:22:12.000+08:00
+    changes:
+    - path: Library\APIUpdater\project-dependencies.graph
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\APIUpdater\\project-dependencies.graph"
+      projectPath: Library\APIUpdater\project-dependencies.graph
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\Assembly-CSharp-Editor-firstpass.dll"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\PlayFab.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\PlayFab.dll"
+      projectPath: Library\ScriptAssemblies\PlayFab.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\PlayFabEditorExtensions.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\PlayFabEditorExtensions.dll"
+      projectPath: Library\ScriptAssemblies\PlayFabEditorExtensions.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\PlayFabSDKEditor.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\PlayFabSDKEditor.dll"
+      projectPath: Library\ScriptAssemblies\PlayFabSDKEditor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\Unity.2D.Sprite.Editor.dll"
+      projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\Unity.2D.Tilemap.Editor.dll"
+      projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\Unity.CollabProxy.Editor.dll"
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\Unity.Rider.Editor.dll"
+      projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\Unity.TextMeshPro.Editor.dll"
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll"
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\Unity.Timeline.Editor.dll"
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Timeline.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\Unity.Timeline.dll"
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\Unity.VSCode.Editor.dll"
+      projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\UnityEditor.TestRunner.dll"
+      projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEditor.UI.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\UnityEditor.UI.dll"
+      projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll"
+      projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEngine.UI.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\ScriptAssemblies\\UnityEngine.UI.dll"
+      projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\b5e40b-mainStage.json
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\StateCache\\SceneView\\b5e40b-mainStage.json"
+      projectPath: Library\StateCache\SceneView\b5e40b-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-006f1f7653407294fb8c75041ef42f8a
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-006f1f7653407294fb8c75041ef42f8a"
+      projectPath: Temp\UnityTempFile-006f1f7653407294fb8c75041ef42f8a
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-046ae93d306dea343a5265401f1a1ce6
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-046ae93d306dea343a5265401f1a1ce6"
+      projectPath: Temp\UnityTempFile-046ae93d306dea343a5265401f1a1ce6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-0806838e25a6025419035705f1a6caa7
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-0806838e25a6025419035705f1a6caa7"
+      projectPath: Temp\UnityTempFile-0806838e25a6025419035705f1a6caa7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-0f9a7936b00ba1b47b9a09d118defc31
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-0f9a7936b00ba1b47b9a09d118defc31"
+      projectPath: Temp\UnityTempFile-0f9a7936b00ba1b47b9a09d118defc31
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-16e4f79302c1635469425af4485129ac
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-16e4f79302c1635469425af4485129ac"
+      projectPath: Temp\UnityTempFile-16e4f79302c1635469425af4485129ac
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-21c0ad021eabfad4ca6f0e1113edd075
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-21c0ad021eabfad4ca6f0e1113edd075"
+      projectPath: Temp\UnityTempFile-21c0ad021eabfad4ca6f0e1113edd075
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-2cd14cc36f4052f4c9002852a27cbfe8
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-2cd14cc36f4052f4c9002852a27cbfe8"
+      projectPath: Temp\UnityTempFile-2cd14cc36f4052f4c9002852a27cbfe8
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-313dc1b97cb75e64195fc4d71f6ca1b7
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-313dc1b97cb75e64195fc4d71f6ca1b7"
+      projectPath: Temp\UnityTempFile-313dc1b97cb75e64195fc4d71f6ca1b7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-3ec0fcb18198c0f41baff6adb277d0d4
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-3ec0fcb18198c0f41baff6adb277d0d4"
+      projectPath: Temp\UnityTempFile-3ec0fcb18198c0f41baff6adb277d0d4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-481c658c317d68643b5f2ad1dc0a4fc7
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-481c658c317d68643b5f2ad1dc0a4fc7"
+      projectPath: Temp\UnityTempFile-481c658c317d68643b5f2ad1dc0a4fc7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-4d982be0681a38a44bd9281b115f31a7
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-4d982be0681a38a44bd9281b115f31a7"
+      projectPath: Temp\UnityTempFile-4d982be0681a38a44bd9281b115f31a7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-50e1738b64166b04aba9f926b3a896b0
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-50e1738b64166b04aba9f926b3a896b0"
+      projectPath: Temp\UnityTempFile-50e1738b64166b04aba9f926b3a896b0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-5860443f73f3b9f41924b5b67ce6922d
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-5860443f73f3b9f41924b5b67ce6922d"
+      projectPath: Temp\UnityTempFile-5860443f73f3b9f41924b5b67ce6922d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-58670b9df3c30c54aa7d7645dcc2a465
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-58670b9df3c30c54aa7d7645dcc2a465"
+      projectPath: Temp\UnityTempFile-58670b9df3c30c54aa7d7645dcc2a465
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-603b8fbc71a9deb49b694b8d8f9c0946
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-603b8fbc71a9deb49b694b8d8f9c0946"
+      projectPath: Temp\UnityTempFile-603b8fbc71a9deb49b694b8d8f9c0946
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-665dba09c5a31864c88a6b55e0402af9
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-665dba09c5a31864c88a6b55e0402af9"
+      projectPath: Temp\UnityTempFile-665dba09c5a31864c88a6b55e0402af9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-66e5d3c40ca040e44b1aa6912b8fc693
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-66e5d3c40ca040e44b1aa6912b8fc693"
+      projectPath: Temp\UnityTempFile-66e5d3c40ca040e44b1aa6912b8fc693
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-85a0c113c2a274b49b2a38815a596487
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-85a0c113c2a274b49b2a38815a596487"
+      projectPath: Temp\UnityTempFile-85a0c113c2a274b49b2a38815a596487
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-8c820b591b8b9a64c973732aeef23aa9
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-8c820b591b8b9a64c973732aeef23aa9"
+      projectPath: Temp\UnityTempFile-8c820b591b8b9a64c973732aeef23aa9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-8efd0703367b98a40994c2fb31ef7be2
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-8efd0703367b98a40994c2fb31ef7be2"
+      projectPath: Temp\UnityTempFile-8efd0703367b98a40994c2fb31ef7be2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-9ae7f14068a694243bea3a5bad7d3368
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-9ae7f14068a694243bea3a5bad7d3368"
+      projectPath: Temp\UnityTempFile-9ae7f14068a694243bea3a5bad7d3368
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-b61fbc5883ba2cb45a12d2e8e73b588f
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-b61fbc5883ba2cb45a12d2e8e73b588f"
+      projectPath: Temp\UnityTempFile-b61fbc5883ba2cb45a12d2e8e73b588f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-bac997fa84ccecb42a5c3b4f22ce3f5c
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-bac997fa84ccecb42a5c3b4f22ce3f5c"
+      projectPath: Temp\UnityTempFile-bac997fa84ccecb42a5c3b4f22ce3f5c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-bbf410cc81615e240a57e256213729e7
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-bbf410cc81615e240a57e256213729e7"
+      projectPath: Temp\UnityTempFile-bbf410cc81615e240a57e256213729e7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-c6be597a99d372b4fa6e6d1c09fd4756
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-c6be597a99d372b4fa6e6d1c09fd4756"
+      projectPath: Temp\UnityTempFile-c6be597a99d372b4fa6e6d1c09fd4756
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-d8926f801c556cf4793d9940f823ff0d
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-d8926f801c556cf4793d9940f823ff0d"
+      projectPath: Temp\UnityTempFile-d8926f801c556cf4793d9940f823ff0d
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-d962639278649bc42a89ea26e2f9fcb5
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-d962639278649bc42a89ea26e2f9fcb5"
+      projectPath: Temp\UnityTempFile-d962639278649bc42a89ea26e2f9fcb5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-da416c6528c0cef4b8828ebf29bca437
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-da416c6528c0cef4b8828ebf29bca437"
+      projectPath: Temp\UnityTempFile-da416c6528c0cef4b8828ebf29bca437
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-dd039622b4f04ce439ad5818d16f24f5
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-dd039622b4f04ce439ad5818d16f24f5"
+      projectPath: Temp\UnityTempFile-dd039622b4f04ce439ad5818d16f24f5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-eb46b457099acbd419595ace189f9223
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-eb46b457099acbd419595ace189f9223"
+      projectPath: Temp\UnityTempFile-eb46b457099acbd419595ace189f9223
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-f0484d1a0d41fd8428b2838a5851bcd5
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-f0484d1a0d41fd8428b2838a5851bcd5"
+      projectPath: Temp\UnityTempFile-f0484d1a0d41fd8428b2838a5851bcd5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-f28d09578b788f045a5c5ad78f6089a7
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-f28d09578b788f045a5c5ad78f6089a7"
+      projectPath: Temp\UnityTempFile-f28d09578b788f045a5c5ad78f6089a7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-f406067bbb10d5c42b06c0743175899e
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-f406067bbb10d5c42b06c0743175899e"
+      projectPath: Temp\UnityTempFile-f406067bbb10d5c42b06c0743175899e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-f687318477d320f4192304d499a38461
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-f687318477d320f4192304d499a38461"
+      projectPath: Temp\UnityTempFile-f687318477d320f4192304d499a38461
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-f771bf7bdb08feb45b5dd37e061af8e9
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-f771bf7bdb08feb45b5dd37e061af8e9"
+      projectPath: Temp\UnityTempFile-f771bf7bdb08feb45b5dd37e061af8e9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-fb06d611afe41754b8798327783b95f7
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Temp\\UnityTempFile-fb06d611afe41754b8798327783b95f7"
+      projectPath: Temp\UnityTempFile-fb06d611afe41754b8798327783b95f7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: d2a30c364ba6da9a703d7ad2718937fdcbf171a5
+    mergeA: 
+    mergeB: 
+    authorName: xiafanfan
+    authorEmail: 879202243@qq.com
+    commitEmail: 879202243@qq.com
+    commitName: xiafanfan
+    summary: 6
+    description: 
+    timeString: 2020-07-29T12:19:25.000+08:00
+    commitTimeString: 2020-07-29T12:19:25.000+08:00
+    changes:
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache"
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache"
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache"
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\Assembly-CSharp-Editor.csprojAssemblyReference.cache"
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CopyComplete
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\Assembly-CSharp.csproj.CopyComplete"
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CopyComplete
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\Assembly-CSharp.csproj.CoreCompileInputs.cache"
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\Assembly-CSharp.csproj.FileListAbsolute.txt"
+      projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\Assembly-CSharp.csprojAssemblyReference.cache"
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\Assembly-CSharp.dll"
+      projectPath: obj\Debug\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.pdb
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\Assembly-CSharp.pdb"
+      projectPath: obj\Debug\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\DesignTimeResolveAssemblyReferences.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\DesignTimeResolveAssemblyReferences.cache"
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferences.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\DesignTimeResolveAssemblyReferencesInput.cache"
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFab.csproj.CopyComplete
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFab.csproj.CopyComplete"
+      projectPath: obj\Debug\PlayFab.csproj.CopyComplete
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFab.csproj.CoreCompileInputs.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFab.csproj.CoreCompileInputs.cache"
+      projectPath: obj\Debug\PlayFab.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFab.csproj.FileListAbsolute.txt
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFab.csproj.FileListAbsolute.txt"
+      projectPath: obj\Debug\PlayFab.csproj.FileListAbsolute.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFab.csprojAssemblyReference.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFab.csprojAssemblyReference.cache"
+      projectPath: obj\Debug\PlayFab.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFab.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFab.dll"
+      projectPath: obj\Debug\PlayFab.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFab.pdb
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFab.pdb"
+      projectPath: obj\Debug\PlayFab.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFabEditorExtensions.csproj.CopyComplete
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFabEditorExtensions.csproj.CopyComplete"
+      projectPath: obj\Debug\PlayFabEditorExtensions.csproj.CopyComplete
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFabEditorExtensions.csproj.CoreCompileInputs.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFabEditorExtensions.csproj.CoreCompileInputs.cache"
+      projectPath: obj\Debug\PlayFabEditorExtensions.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFabEditorExtensions.csproj.FileListAbsolute.txt
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFabEditorExtensions.csproj.FileListAbsolute.txt"
+      projectPath: obj\Debug\PlayFabEditorExtensions.csproj.FileListAbsolute.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFabEditorExtensions.csprojAssemblyReference.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFabEditorExtensions.csprojAssemblyReference.cache"
+      projectPath: obj\Debug\PlayFabEditorExtensions.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFabEditorExtensions.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFabEditorExtensions.dll"
+      projectPath: obj\Debug\PlayFabEditorExtensions.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFabEditorExtensions.pdb
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFabEditorExtensions.pdb"
+      projectPath: obj\Debug\PlayFabEditorExtensions.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFabSDKEditor.csproj.CopyComplete
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFabSDKEditor.csproj.CopyComplete"
+      projectPath: obj\Debug\PlayFabSDKEditor.csproj.CopyComplete
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFabSDKEditor.csproj.CoreCompileInputs.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFabSDKEditor.csproj.CoreCompileInputs.cache"
+      projectPath: obj\Debug\PlayFabSDKEditor.csproj.CoreCompileInputs.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFabSDKEditor.csproj.FileListAbsolute.txt
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFabSDKEditor.csproj.FileListAbsolute.txt"
+      projectPath: obj\Debug\PlayFabSDKEditor.csproj.FileListAbsolute.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFabSDKEditor.csprojAssemblyReference.cache
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFabSDKEditor.csprojAssemblyReference.cache"
+      projectPath: obj\Debug\PlayFabSDKEditor.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFabSDKEditor.dll
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFabSDKEditor.dll"
+      projectPath: obj\Debug\PlayFabSDKEditor.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\PlayFabSDKEditor.pdb
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\PlayFabSDKEditor.pdb"
+      projectPath: obj\Debug\PlayFabSDKEditor.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"
+      projectPath: obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"
+      projectPath: obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\obj\\Debug\\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"
+      projectPath: obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 10e6e9480a98943b31a466582cd61acd522a84c5
+    mergeA: 
+    mergeB: 
+    authorName: xiafanfan
+    authorEmail: 879202243@qq.com
+    commitEmail: 879202243@qq.com
+    commitName: xiafanfan
+    summary: 5
+    description: 
+    timeString: 2020-07-29T12:19:13.000+08:00
+    commitTimeString: 2020-07-29T12:19:13.000+08:00
+    changes:
+    - path: Library\SourceAssetDB
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\SourceAssetDB"
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\gfu\\cache\\branches.yaml"
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\gfu\\cache\\gitlog.yaml"
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\gfu\\cache\\gitstatusentries.yaml"
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: "C:\\Users\\\u590F\u51E1\\Desktop\\web\\FarmGame-Unity\\client\\Farm
+        Game\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 82a15be764582bc0babad655ce870da98e941f50
     mergeA: 
     mergeB: 

@@ -41,9 +41,15 @@ TagManager:
   - name: Background
     uniqueID: 2793008437
     locked: 0
-  - name: Default
-    uniqueID: 0
+  - name: ButtonPanel
+    uniqueID: 1449925841
+    locked: 0
+  - name: Board
+    uniqueID: 21682777
     locked: 0
   - name: Modal
-    uniqueID: 21682777
+    uniqueID: 3931699733
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0

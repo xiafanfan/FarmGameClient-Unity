@@ -4,19 +4,10 @@ using UnityEngine;
 
 public class TreasureChestController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject treasureChestBoard;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnMouseDown()
     {
-        Debug.Log("treasure chest clicked");
+       treasureChestBoard.GetComponent<BoardController>().Show();
     }
 }

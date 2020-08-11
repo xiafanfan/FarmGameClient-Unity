@@ -10,8 +10,6 @@ public class PlantController : MonoBehaviour
     {
         anim = GetComponent<Animator>();
     }
-
-
     public void SetSpecies(string seed)
     {
         anim.SetTrigger("Sow" + seed);

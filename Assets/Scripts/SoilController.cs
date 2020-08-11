@@ -2,13 +2,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class SoilController : MonoBehaviour
 {
     public GameObject plant; //it is used to show plant image 
-    public Sprite soil_ready;
-    private long plantTime;
-    public long PlantTime
+    public string instanceID;
+    public bool ready = false;
+    public PlantController plantController;
+    public int growthStage;
+
+    private long? plantTime;
+    public long? PlantTime
     {
         get
         {
@@ -62,27 +67,17 @@ public class SoilController : MonoBehaviour
         }
     }
 
-    public int growthStage;
 
-
-
-    public string instanceID;
-    public bool ready = false;
-    public PlantController plantController;
     void Start()
     {
         plantController = plant.GetComponent<PlantController>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void ActiveSoil()
     {
         ready = true;
-        gameObject.GetComponent<SpriteRenderer>().sprite = soil_ready;
+        GetComponent<Animator>().SetTrigger("Active Soil");
+        //gameObject.GetComponent<SpriteRenderer>().sprite = soil_ready;
     }
 
 
@@ -94,10 +89,17 @@ public class SoilController : MonoBehaviour
 
     public void UpdateGrowthStage()
     {
-        long now = ConvertDateTimeToInt(DateTime.UtcNow);
-
-        int growth_time = (int)(now - plantTime) / 1000 + acceleration;
-        int new_stage = getGrowthStage(species, growth_time);
+        int new_stage;
+        if (species == null || plantTime == null)
+        {
+            new_stage = 0;
+        }
+        else
+        {
+            long now = ConvertDateTimeToInt(DateTime.UtcNow);
+            int growth_time = (int)(now - plantTime) / 1000 + acceleration;
+            new_stage = getGrowthStage(species, growth_time);
+        }
         if (new_stage != growthStage)
         {
             growthStage = new_stage;
@@ -109,15 +111,15 @@ public class SoilController : MonoBehaviour
     {
         long now = ConvertDateTimeToInt(DateTime.UtcNow);
         int new_stage = 0;
-        if (growth_time >= SingleDemo.instance.seeds[species.ToLower() + "_seed"].growthTime)
+        if (growth_time >= Game.instance.seeds[species.ToLower() + "_seed"].growthTime)
         {
             new_stage = 3;
         }
-        else if (growth_time >= SingleDemo.instance.seeds[species.ToLower() + "_seed"].growthTime * SingleDemo.instance.growthStageRatio[2])
+        else if (growth_time >= Game.instance.seeds[species.ToLower() + "_seed"].growthTime * Game.instance.growthStageRatio[2])
         {
             new_stage = 2;
         }
-        else if (growth_time >= SingleDemo.instance.seeds[species.ToLower() + "_seed"].growthTime * SingleDemo.instance.growthStageRatio[1])
+        else if (growth_time >= Game.instance.seeds[species.ToLower() + "_seed"].growthTime * Game.instance.growthStageRatio[1])
         {
             new_stage = 1;
         }
@@ -138,37 +140,99 @@ public class SoilController : MonoBehaviour
 
         return output;
     }
+
     private void OnMouseDown()
     {
-        Debug.Log(species);
+        if (ready)
+        {
+            //Debug.Log(species);
+            if (Game.instance.operationType == Game.OperationType.Fertilizer)
+            {
+                Accelerate();
+            }
+            else if (Game.instance.operationType == Game.OperationType.Harvest)
+            {
+                Harvest();
+            }
+            else if (Game.instance.operationType == Game.OperationType.Sow)
+            {
+                Sow();
+            }
+        }
     }
-
-    public delegate void Opearte();
-    public bool Accelerate(Fertilizer fertilizer)
+    //public delegate void Opearte();
+    public void Accelerate()
     {
-        Acceleration += fertilizer.acceleration;
-        return true;
+        if (Species != null&&growthStage<3)
+        {
+            Fertilizer fertilizer = Game.instance.fertilizers[Game.instance.operatedItem.ID];
+            if (Game.instance.ItemIcons[fertilizer.ID].GetComponent<ItemIconWithUsesController>().ModifyUses(-1))
+            {
+                Acceleration += fertilizer.acceleration;
+                UpdateSoil();
+                ConsumeItem(Game.instance.operatedItem, 1);
+            }
+        }
     }
-    public void Sow(Seed seed)
+    public void Sow()
     {
-        long now = ConvertDateTimeToInt(DateTime.UtcNow);
-        PlantTime = now;
-        Acceleration = 0;
-        Species = seed.ID.Split('_')[0];
+        if (species == null)
+        {
+            Seed seed = Game.instance.seeds[Game.instance.operatedItem.ID];
+            if (Game.instance.ItemIcons[seed.ID].GetComponent<ItemIconWithUsesController>().ModifyUses(-1))
+            {
+                long now = ConvertDateTimeToInt(DateTime.UtcNow);
+                PlantTime = now;
+                Acceleration = 0;
+                Species = seed.ID.Split('_')[0];
+                UpdateSoil();
+                ConsumeItem(Game.instance.operatedItem, 1);
+            }
+        }
     }
     public void Harvest()
     {
-        if (growthStage >= 3)
+        if (species != null)
         {
-            Debug.Log("harvest");
-            //grant
+            if (growthStage >= 3)
+            {
+                Debug.Log("harvest");
+                ItemBundle productBundle = (ItemBundle)Game.instance.catalogItems[Game.instance.seeds[species.ToLower() + "_seed"].product];
+                Game.instance.ItemIcons[productBundle.itemContains].GetComponent<ItemIconWithUsesController>().ModifyUses(productBundle.usesContains);
+                Game.instance.itemGrants.Add(Game.instance.seeds[species.ToLower() + "_seed"].product);
+            }
+            else
+            {
+                Debug.Log("eradicate");
+            }
+            Species = null;
+            PlantTime = null;
+            Acceleration = 0;
+            UpdateSoil();
+        }
+    }
+    void UpdateSoil()
+    {
+        if (Game.instance.soilUpdates.ContainsKey(instanceID))
+        {
+            Game.instance.soilUpdates[instanceID].species = species;
+            Game.instance.soilUpdates[instanceID].plantTime = plantTime;
+            Game.instance.soilUpdates[instanceID].acceleration = acceleration;
         }
         else
         {
-            Debug.Log("eradicate");
+            Game.instance.soilUpdates.Add(instanceID, new UpdatedSoil(species, plantTime, acceleration));
         }
-        PlantTime = 0;
-        Acceleration = 0;
-        Species = null;
+    }
+    void ConsumeItem(Instance item,int _uses)
+    {
+        if (Game.instance.itemConsumes.ContainsKey(item.ID))
+        {
+            Game.instance.itemConsumes[item.ID].consumeCount += _uses;
+        }
+        else
+        {
+            Game.instance.itemConsumes.Add(item.ID, new ConsumedItem(item.instanceID, _uses));
+        }
     }
 }

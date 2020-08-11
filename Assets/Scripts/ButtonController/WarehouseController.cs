@@ -4,19 +4,29 @@ using UnityEngine;
 
 public class WarehouseController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject warehouseBoard;
+    public GameObject buttonSell;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnMouseDown()
     {
-        Debug.Log("warehouse clicked");
+        GetComponent<SpriteRenderer>().color = Color.gray;
+        GetComponent<BoxCollider2D>().enabled = false;
+        Game.instance.Sync(new Game.NextDo(ShowBoard));
+    }
+
+    private void ShowBoard()
+    {
+        GetComponent<SpriteRenderer>().color = Color.white;
+        GetComponent<BoxCollider2D>().enabled = true;
+        buttonSell.GetComponent<SpriteRenderer>().color = Color.gray;
+        buttonSell.GetComponent<BoxCollider2D>().enabled = false;
+        warehouseBoard.GetComponent<BoardController>().Show();
+        Game.instance.GetInventory(new Game.NextDo(EnableButton));
+    }
+
+    private void EnableButton()
+    {
+        buttonSell.GetComponent<SpriteRenderer>().color = Color.white;
+        buttonSell.GetComponent<BoxCollider2D>().enabled = true;
     }
 }

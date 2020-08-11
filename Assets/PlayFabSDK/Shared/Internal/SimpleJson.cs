@@ -361,6 +361,11 @@ namespace PlayFab.Json
             return PlayFabSimpleJson.SerializeObject(_members);
         }
 
+        public static explicit operator List<object>(JsonObject v)
+        {
+            throw new NotImplementedException();
+        }
+
 #if SIMPLE_JSON_DYNAMIC
         /// <summary>
         /// Provides implementation for type conversion operations. Classes derived from the <see cref="T:System.Dynamic.DynamicObject"/> class can override this method to specify dynamic behavior for operations that convert an object from one type to another.

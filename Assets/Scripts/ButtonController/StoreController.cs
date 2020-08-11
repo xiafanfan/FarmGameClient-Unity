@@ -4,20 +4,10 @@ using UnityEngine;
 
 public class StoreController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject storeBoard;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnMouseDown()
     {
-        Debug.Log("store clicked");
-        //Debug.Log(SingleDemo.instance.CC());
+        storeBoard.GetComponent<BoardController>().Show();
     }
 }

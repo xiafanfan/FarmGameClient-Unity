@@ -11,6 +11,7 @@ public class SpadeController : MonoBehaviour
     private void OnMouseDown()
     {
         Cursor.SetCursor(spade, new Vector2(25,60), CursorMode.Auto);
-        Debug.Log("sync clicked");
+        Game.instance.operationType = Game.OperationType.Harvest;
+        Game.instance.operatedItem = null;
     }
 }
